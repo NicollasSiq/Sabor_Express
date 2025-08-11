@@ -5,7 +5,7 @@ import os
 restaurantes = [
                     {'nome':'Praça','categoria':'Japonesa','ativo':False},
                     {'nome':'Pizza suprema','categoria':'Pizza','ativo':True},
-                    {'nome':'Cantina','categoria':'Italiano','ativo':False},
+                    {'nome':'Cantina','categoria':'Italiano','ativo':False}
                 ]
 
 def exibir_nome_do_programa():
@@ -98,7 +98,6 @@ def alternar_estado_do_restaurante():
 def escolher_opcao():
     """
         Função para escolha do usuário
-    
     """
     try:
         opcao_escolhida = int(input('Escolha uma opção: '))
